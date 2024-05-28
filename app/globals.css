@@ -13,12 +13,14 @@ body {
   background: radial-gradient(#282c34, #282c34);
 }
 
+.loading,
 .not-found,
 .error {
   margin-top: 5rem;
   text-align: center;
 }
 
+.loading,
 .not-found h1,
 .error h1 {
   font-size: 5rem;

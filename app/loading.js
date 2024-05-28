@@ -1,3 +1,7 @@
 export default function MealsLoadingPage() {
-  return <p className={classes.loading}>loading page</p>;
+  return (
+    <main className="loading">
+      <h1>loading ...</h1>;
+    </main>
+  );
 }
